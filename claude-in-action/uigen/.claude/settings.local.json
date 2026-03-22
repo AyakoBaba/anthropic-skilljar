@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(lsof -ti:3000)",
+      "Bash(xargs kill:*)",
+      "Bash(npx vitest:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_click"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -L -o uigen.zip \"https://cc.sj-cdn.net/instructor/4hdejjwplbrm-anthropic/assets/1769622681/uigen.zip?response-content-disposition=attachment&Expires=1774060748&Signature=Zy6VGQDrZ-U1dVCTnEAdHzs2ppu7L1MJL3nSisYOR1EaR6t9PjpaumrKnWYP25gEKtwoTEgRxEKkJs5dbrb~Jpl2B~Ie-XWU~tjeicHW8b~gg4cYEY3uYi0pPG1qlrw-LEma~DauPP9meki6HcHDSpSV2KyAgUasMRPj9cQA3w-H8qWDu~WPX9sqvPwi~9igealA3pO3AmZCvhjSCnZfYyvrn7wytnv6ckT6irHmWhcuhmTWIOMWqualP6hvd6GVOR6U6tNqYRjLqkBfmcaBpAqGtMDNnfHoMR0elQJ13XAW7G7YjMrpvCwQvInnNVBqT4xyQlPWIVAp9zNCFTq0gw__&Key-Pair-Id=APKAI3B7HFD2VYJQK4MQ\" 2>&1)",
+      "Bash(unzip -o uigen.zip -d uigen)",
+      "Bash(npm run:*)",
+      "Bash(which node:*)"
+    ]
+  }
+}
